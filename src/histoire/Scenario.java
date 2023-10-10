@@ -1,10 +1,7 @@
 package histoire;
 
-import personnages.Chef;
 import personnages.Druide;
 import personnages.Gaulois;
-import villagegaulois.Etal;
-import villagegaulois.Village;
 
 public class Scenario {
 
@@ -17,7 +14,7 @@ public class Scenario {
 		Gaulois asterix = new Gaulois("Astérix", 8);
 		Gaulois assurancetourix = new Gaulois("Assurancetourix", 2);
 		Gaulois bonemine = new Gaulois("Bonemine", 7);
-		
+
 //		village.ajouterHabitant(bonemine);
 //		village.ajouterHabitant(assurancetourix);
 //		village.ajouterHabitant(asterix);
@@ -39,6 +36,7 @@ public class Scenario {
 //		System.out.println(etalFleur.acheterProduit(15, assurancetourix));
 //		System.out.println(village.partirVendeur(bonemine));
 //		System.out.println(village.afficherMarche());
+
 	}
 
 }
